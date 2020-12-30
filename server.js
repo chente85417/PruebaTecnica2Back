@@ -140,3 +140,50 @@ serverObj.get("/requestArticles/orderColumn/:field/orderDirection/:direction/sta
         res.send({"ret" : false, "caption" : failMsg});
     });
 });
+
+serverObj.get("/requestManufacturer/:artID", (req, res) => {
+    //Generic failure message
+    const failMsg = "Lo sentimos. No ha sido posible obtener los datos en este momento. Inténtelo más tarde";
+
+    //--CREATE A CONNECTION WITH DB--//
+    connectorDB("MySQL", connectionData)
+    .then((connectionDB) => {
+        //Created connection with DB --> GO ON
+        try {
+            connectionDB.query({
+                sql : "SELECT f.*, a.ARTID FROM fabricantes AS f LEFT JOIN articulos AS a ON f.FABID = a.EXT_FABID WHERE a.ARTID = ?",
+                values : [
+                    req.params.artID    //article id
+                ]},
+                function (err, result) {
+                    if (err)
+                    {
+                        //Query failed
+                        throw err;
+                    }//if
+                    else if (result.length)
+                    {
+                        connectionDB.end();
+                        //Send back the result
+                        res.send({"ret" : true, "caption" : result});
+                    }//else if
+                    else
+                    {
+                        connectionDB.end();
+                        console.log("");
+                        res.send({"ret" : false, "caption" : failMsg});
+                    }//else
+                });
+            } catch(err){
+                connectionDB.end();
+                console.log("Fallo en sentencia SQL",err);
+                res.send({"ret" : false, "caption" : failMsg});
+            }
+    })
+    //DB connection KO --> exit
+    .catch((fail) => {
+        //The connection with DB failed --> Exit sending error information
+        console.log("Fallo de conexión con la BD",fail);
+        res.send({"ret" : false, "caption" : failMsg});
+    });
+});
