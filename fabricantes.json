@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "6012c8e45de6dd32cc03b897"
+  },
+  "FABID": 1,
+  "NOMBRE": "NETATMO",
+  "CIF": "B12345678",
+  "DIRECCION": "RUE DE SEVRES,73 91400 BOULOGNE FRANCIA"
+},{
+  "_id": {
+    "$oid": "6012c8e45de6dd32cc03b898"
+  },
+  "FABID": 2,
+  "NOMBRE": "QUBINO",
+  "CIF": "B97848003",
+  "DIRECCION": "ULICA KLEMENTA JUGA 7, 5250 SOLKAN, SLOVENIA"
+},{
+  "_id": {
+    "$oid": "6012c8e45de6dd32cc03b899"
+  },
+  "FABID": 3,
+  "NOMBRE": "FIBARO",
+  "CIF": "B78118580",
+  "DIRECCION": "CALLE SERDECZNA 3, WYSOGOTOWO 62-081"
+},{
+  "_id": {
+    "$oid": "6012c8e45de6dd32cc03b89a"
+  },
+  "FABID": 4,
+  "NOMBRE": "POPP",
+  "CIF": "B67208728",
+  "DIRECCION": "CALLE DEL RIO EBRO, 5 28947 FUENLABRADA MADRID"
+},{
+  "_id": {
+    "$oid": "6012c8e45de6dd32cc03b89b"
+  },
+  "FABID": 5,
+  "NOMBRE": "STEINEL",
+  "CIF": "G87793011",
+  "DIRECCION": "VON-BRAUN-STRA?E 8 48691 VREDEN GERMANY"
+},{
+  "_id": {
+    "$oid": "6012c8e45de6dd32cc03b89c"
+  },
+  "FABID": 6,
+  "NOMBRE": "DOORBIRD",
+  "CIF": "A11378902",
+  "DIRECCION": "UHLANDSTR. 165 10719 BERLIN GERMANY"
+},{
+  "_id": {
+    "$oid": "6012c8e45de6dd32cc03b89d"
+  },
+  "FABID": 7,
+  "NOMBRE": "AEOTEC",
+  "CIF": "H48344013",
+  "DIRECCION": "HONG KONG OFFICE 4 10 / F KWAN CHART TOWER, 6 TONNOCHY ROAD, WAN CHAI"
+}]

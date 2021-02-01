@@ -1,0 +1,226 @@
+[{
+  "_id": {
+    "$oid": "6012c8a95de6dd32cc03b87e"
+  },
+  "ARTID": 1,
+  "NOMBRE": "PLUVIOMETRO PARA ESTACION METEOROLOGICA",
+  "RELEVANCIA": "ALTA",
+  "PRECIO": 69,
+  "EXT_FABID": 1
+},{
+  "_id": {
+    "$oid": "6012c8a95de6dd32cc03b87f"
+  },
+  "ARTID": 2,
+  "NOMBRE": "TERMOSTATO MICROMODULO FRIO Y CALOR Z-WAVE PLUS",
+  "RELEVANCIA": "ALTA",
+  "PRECIO": 65.9,
+  "EXT_FABID": 2
+},{
+  "_id": {
+    "$oid": "6012c8a95de6dd32cc03b880"
+  },
+  "ARTID": 3,
+  "NOMBRE": "DIMMER CON TECLA Y MARCO WALLI",
+  "RELEVANCIA": "MEDIA",
+  "PRECIO": 89.95,
+  "EXT_FABID": 3
+},{
+  "_id": {
+    "$oid": "6012c8a95de6dd32cc03b881"
+  },
+  "ARTID": 4,
+  "NOMBRE": "DETECTOR DE HUMO CON 10 AÑOS DE AUTONOMIA",
+  "RELEVANCIA": "BAJA",
+  "PRECIO": 89.95,
+  "EXT_FABID": 4
+},{
+  "_id": {
+    "$oid": "6012c8a95de6dd32cc03b882"
+  },
+  "ARTID": 5,
+  "NOMBRE": "LUZ EXTERIOR CON LED",
+  "RELEVANCIA": "BAJA",
+  "PRECIO": 199,
+  "EXT_FABID": 5
+},{
+  "_id": {
+    "$oid": "6012c8a95de6dd32cc03b883"
+  },
+  "ARTID": 6,
+  "NOMBRE": "VIDEO PORTERO CONECTADO D101S STRATO SILVER EDITION",
+  "RELEVANCIA": "BAJA",
+  "PRECIO": 377.99,
+  "EXT_FABID": 6
+},{
+  "_id": {
+    "$oid": "6012c8a95de6dd32cc03b884"
+  },
+  "ARTID": 7,
+  "NOMBRE": "ENCHUFE CONTROLADO ON/OFF MEDICION DE CONSUMOS",
+  "RELEVANCIA": "ALTA",
+  "PRECIO": 69.95,
+  "EXT_FABID": 7
+},{
+  "_id": {
+    "$oid": "6012c8a95de6dd32cc03b885"
+  },
+  "ARTID": 8,
+  "NOMBRE": "DETECTOR APERTURA DE PUERTAS Y VENTANAS",
+  "RELEVANCIA": "MEDIA",
+  "PRECIO": 54.99,
+  "EXT_FABID": 7
+},{
+  "_id": {
+    "$oid": "6012c8a95de6dd32cc03b886"
+  },
+  "ARTID": 9,
+  "NOMBRE": "PACK MEDIDOR DE CONSUMO Y CONTADOR 32A",
+  "RELEVANCIA": "ALTA",
+  "PRECIO": 134.82,
+  "EXT_FABID": 2
+},{
+  "_id": {
+    "$oid": "6012c8a95de6dd32cc03b887"
+  },
+  "ARTID": 10,
+  "NOMBRE": "ESTACION METEOROLIGICA PERSONAL IPHONE/IPAD/ANDROID",
+  "RELEVANCIA": "BAJA",
+  "PRECIO": 169,
+  "EXT_FABID": 1
+},{
+  "_id": {
+    "$oid": "6012c8a95de6dd32cc03b888"
+  },
+  "ARTID": 11,
+  "NOMBRE": "LUZ INTERIOR CON LED",
+  "RELEVANCIA": "MEDIA",
+  "PRECIO": 129,
+  "EXT_FABID": 5
+},{
+  "_id": {
+    "$oid": "6012c8a95de6dd32cc03b889"
+  },
+  "ARTID": 12,
+  "NOMBRE": "SMART IMPLANT Z-WAVE PLUS",
+  "RELEVANCIA": "MEDIA",
+  "PRECIO": 44.99,
+  "EXT_FABID": 3
+},{
+  "_id": {
+    "$oid": "6012c8a95de6dd32cc03b88a"
+  },
+  "ARTID": 13,
+  "NOMBRE": "SIRENA EXTERIOR SOLAR",
+  "RELEVANCIA": "BAJA",
+  "PRECIO": 248.99,
+  "EXT_FABID": 4
+},{
+  "_id": {
+    "$oid": "6012c8a95de6dd32cc03b88b"
+  },
+  "ARTID": 14,
+  "NOMBRE": "DETECTOR DE APERTURA CABLEADO ENCASTRABLE",
+  "RELEVANCIA": "MEDIA",
+  "PRECIO": 10.9,
+  "EXT_FABID": 2
+},{
+  "_id": {
+    "$oid": "6012c8a95de6dd32cc03b88c"
+  },
+  "ARTID": 15,
+  "NOMBRE": "BOTON Z-WAVE PLUS",
+  "RELEVANCIA": "BAJA",
+  "PRECIO": 49.14,
+  "EXT_FABID": 3
+},{
+  "_id": {
+    "$oid": "6012c8a95de6dd32cc03b88d"
+  },
+  "ARTID": 16,
+  "NOMBRE": "ANEMOMETRO",
+  "RELEVANCIA": "MEDIA",
+  "PRECIO": 99,
+  "EXT_FABID": 1
+},{
+  "_id": {
+    "$oid": "6012c8a95de6dd32cc03b88e"
+  },
+  "ARTID": 17,
+  "NOMBRE": "INTERCOMUNICADOR",
+  "RELEVANCIA": "ALTA",
+  "PRECIO": 899,
+  "EXT_FABID": 3
+},{
+  "_id": {
+    "$oid": "6012c8a95de6dd32cc03b88f"
+  },
+  "ARTID": 18,
+  "NOMBRE": "TIMBRE INALAMBRICO Z-WAVE",
+  "RELEVANCIA": "ALTA",
+  "PRECIO": 64.99,
+  "EXT_FABID": 7
+},{
+  "_id": {
+    "$oid": "6012c8a95de6dd32cc03b890"
+  },
+  "ARTID": 19,
+  "NOMBRE": "ENCHUFE CON MEDICION DE CONSUMOS",
+  "RELEVANCIA": "ALTA",
+  "PRECIO": 49.99,
+  "EXT_FABID": 4
+},{
+  "_id": {
+    "$oid": "6012c8a95de6dd32cc03b891"
+  },
+  "ARTID": 20,
+  "NOMBRE": "MOTOR Z-WAVE PLUS LLAVE GENERAL AGUA/GAS",
+  "RELEVANCIA": "ALTA",
+  "PRECIO": 129.98,
+  "EXT_FABID": 4
+},{
+  "_id": {
+    "$oid": "6012c8a95de6dd32cc03b892"
+  },
+  "ARTID": 21,
+  "NOMBRE": "MINI DIMMER Z-WAVE PLUS",
+  "RELEVANCIA": "MEDIA",
+  "PRECIO": 61.9,
+  "EXT_FABID": 2
+},{
+  "_id": {
+    "$oid": "6012c8a95de6dd32cc03b893"
+  },
+  "ARTID": 22,
+  "NOMBRE": "DETECTOR APERTURA Y SENSOR TEMPERATURA",
+  "RELEVANCIA": "BAJA",
+  "PRECIO": 49.99,
+  "EXT_FABID": 3
+},{
+  "_id": {
+    "$oid": "6012c8a95de6dd32cc03b894"
+  },
+  "ARTID": 23,
+  "NOMBRE": "CONTROL APERTURA DE PUERTA",
+  "RELEVANCIA": "BAJA",
+  "PRECIO": 59.99,
+  "EXT_FABID": 4
+},{
+  "_id": {
+    "$oid": "6012c8a95de6dd32cc03b895"
+  },
+  "ARTID": 24,
+  "NOMBRE": "VIDEO PORTERO CONECTADO D101",
+  "RELEVANCIA": "MEDIA",
+  "PRECIO": 348.99,
+  "EXT_FABID": 6
+},{
+  "_id": {
+    "$oid": "6012c8a95de6dd32cc03b896"
+  },
+  "ARTID": 25,
+  "NOMBRE": "DETECTOR DE MOVIMIENTO MULTIFUNCION",
+  "RELEVANCIA": "BAJA",
+  "PRECIO": 57.99,
+  "EXT_FABID": 3
+}]
