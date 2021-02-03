@@ -98,7 +98,7 @@ const connectorDB = (dbms, connectionData) => {
                     try {
                         //Uri string connection to mongodb instance
                         const mongoConnectionData = `mongodb://${connectionData.host}:27017`;
-                        const client = new MongoClient(mongoConnectionData);
+                        const client = new MongoClient(mongoConnectionData, {useUnifiedTopology: true});
                         //console.log(client);
 
                         client.connect(function(err) {
@@ -144,18 +144,18 @@ const MakeQuery = (dataQuery, response) => {
                             //Query failed
                             throw err;
                         }//if
-                        else if (result.length)
+                        else// if (result.length)
                         {
                             connectionDB.end();
                             //Send back the result
                             response.send({"ret" : true, "caption" : result});
                         }//else if
-                        else
+                        /*else
                         {
                             connectionDB.end();
                             console.log("");
                             response.send({"ret" : false, "caption" : failMsg});
-                        }//else
+                        }//else*/
                     });
                 }
             catch(err) {
